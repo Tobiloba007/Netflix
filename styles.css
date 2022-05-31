@@ -1,0 +1,522 @@
+body{
+    background-color: #000000;
+    font-family: 'Netflix Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+    width: 100%;
+    }
+                   /* SECTION 1 */
+.section1{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.724), rgba(0, 0, 0, 0.701)), url("https://assets.nflxext.com/ffe/siteui/vlv3/ebff1e0f-5704-423f-b4c6-94914dabe25b/791d6f9c-07d1-4009-a2a3-8e875d0d4a03/NG-en-20220509-popsignuptwoweeks-perspective_alpha_website_medium.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%;
+    background-blend-mode: darken;
+    
+}
+.netflixLogo{
+    margin-left: 57px;
+    margin-top: 29px;
+}
+
+.welcomeMessage{
+    color: #ffffff;
+    margin-top: 143px;
+}
+
+.message{
+    font-size: 27px;
+    font-weight: normal;
+    color: white;
+}
+.unlimited{
+    font-weight: bolder;
+    font-size: 47px;
+    color: white;
+}
+ button{
+    background-color: #F40612;
+    border: none;
+    font-size: 25px;
+    color: white;
+    /* margin: 30px; */
+    border-radius: 3px;
+}
+.signUp{
+    margin-top: 10px;
+    margin-bottom: 12px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+.getStarted{
+  display: flex;
+  margin-top: -90px;
+}
+.signOut{
+    margin-left: 1000px;
+    font-weight: lighter;
+    font-size: 16px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+#email{
+    margin-top: 100px;
+    margin-bottom: 70px;
+    margin-left: 330px;
+    padding-top: 17px;
+    padding-bottom: 13px;
+    padding-left: 10px;
+    padding-right: 250px;
+}
+.getStartedButton{
+    margin-top: 100px;
+    margin-right: 0px;
+    margin-left: 0px;
+}
+.line1{
+    margin-top: 100px;
+    background-color: #222222;
+    padding-top: 7px;
+}
+
+          /*SECCTION 2  */
+ .section2{
+     display: flex;
+     justify-content: space-between;
+ }         
+ .tvImage{
+     margin-right: 120px;
+     margin-top: 30px;
+ }
+ .section2Message{
+     margin-top: 140px;
+     margin-left: 130px;
+     margin-bottom: 120px;
+ }
+ .line2{
+    margin-top: 30px;
+    background-color: #222222;
+    padding-top: 7px;
+}
+
+        /*SECCTION 3  */
+.section3{
+    display: flex;
+}      
+.parent{
+    position: relative;
+}
+.phoneImage{
+    position: relative;
+    margin-left: 50px;
+    margin-top: 20px;
+    position: relative; 
+}
+.phoneImage2{
+    position: absolute;
+    color: #ffffff;
+    font-size: 17px;
+    font-weight: bold;
+    background-color: #000000;
+    border-style: solid;
+    border-color:#303030;
+    padding: 40px 150px 15px 83px;
+    border-radius: 10px;
+    margin-top: -115px;
+    margin-left: 130px;
+}
+.section3Message{
+    margin: 120px;
+    margin-left: 130px;
+}
+.line3{
+    margin-top: 30px;
+    background-color: #222222;
+    padding-top: 7px;
+}
+
+     
+        /*SECCTION 4  */
+.section4Message{
+    margin-left: 120px;
+    margin-top: 50px;
+    margin-bottom: -110px;
+}
+.line4{
+    margin-top: 170px;
+    background-color: #222222;
+    padding-top: 7px;
+}
+
+     
+        /*SECCTION 5  */
+.section5{
+    display: flex;
+}        
+.childrenImage{
+    margin-top: 50px;
+    margin-left: 125px;
+}
+.section5Message{
+    margin-top: 120px;
+    margin-bottom: 120px;
+    margin-left: 50px;
+}
+.line5{
+    margin-top: 30px;
+    background-color: #222222;
+    padding-top: 7px;
+}
+           
+      /* FAQ collapsible */
+
+/* Style the button that is used to open and close the collapsible content */
+.collapsible {
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    font-size: 27px;
+    margin-top: -20px;
+  }
+  
+  /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+  .active, .collapsible:hover {
+    background-color: #303030;
+  }
+  
+  /* Style the collapsible content. Note: hidden by default */
+  .content {
+    padding: 20px 18px 15px 30px;
+    margin-top: -29px;
+    display: none;
+    overflow: hidden;
+    font-size: 26px;
+  }
+  
+  .collapsible:after {
+    content: '\02795'; /* Unicode character for "plus" sign (+) */
+    font-size: 20px;
+    float: right;
+    margin-left: 5px;
+  }
+  
+  .active:after {
+    content: "\2796"; /*Unicode character for "minus" sign (-)*/
+     /* content: '\U+00D7';  Unicode character for "multiplication" sign (x) */
+     font-size: 20px;
+     float: right;
+    margin-left: 5px; 
+   
+  }
+
+
+ .unlimited6{
+     margin-top: 60px;
+     margin-left: 335px;
+     margin-bottom: 60px;
+     font-size: 50px;
+ }       
+ .faq{
+     color: white;
+     background-color: #303030;
+     margin-right: 200px;
+     margin-left: 265px;
+     width: 820px;
+     height: 80px;
+ }
+ .section6Message{
+     color: white;
+     margin-top: 70px;
+ }
+ .line6{
+    margin-top: 20px;
+    margin-bottom: 70px;
+    background-color: #222222;
+    padding-top: 7px;
+}
+
+       /* SECTION 7 */
+   .container{
+       display: flex;
+       justify-content: space-evenly;
+       margin-right: 142px;
+       margin-top: 30px;
+   }    
+ a:hover{
+     text-decoration: underline;
+     color: #757575;
+ }  
+.rooter{
+    color: #757575;
+    font-size: small;
+    text-decoration: none;
+}
+.questions{
+    margin-left: 220px;
+    font-size: 17px;
+    text-decoration: none;
+}
+.nigeria{
+    margin-left: 220px;
+    margin-top: 30px;
+}
+
+
+
+@media (max-width: 992px), screen and (orientation: portrait) {  
+    body{
+        background-color: #000000;
+        font-family: 'Netflix Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+        width: 100%;
+        }
+    .sec1Message{
+        margin-right: 0px;
+        margin-top: 160px;
+    }
+    .message{
+        margin-left: 70px;
+        margin-top:px;
+    }
+    .signOut{
+        margin-left: 550px;
+        margin-bottom: 5px;
+    }
+    .getStarted{
+        display: grid;
+    }
+    .getStartedButton{
+        margin-top: -250px;
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+ .signUp{
+   font-size: medium;
+   margin-right: 10px;
+}
+#email{
+    margin-top: 100px;
+    margin-bottom: 30px;
+    margin-left: 200px;
+    margin-right: 200px;
+    padding-top: 17px;
+    padding-bottom: 13px;
+    padding-left: 10px;
+    padding-right: 250px;
+}
+.section2{
+    display: grid;
+    justify-content: space-between;
+    position: center;
+}
+.unlimited{
+    font-weight: bolder;
+    font-size: 40px;
+    color: white;
+}         
+.enjoy{
+    margin-left: 180px;
+    margin-top: -60px;
+}
+.message{
+    font-size: 20px;
+    font-weight: lighter;
+    color: white;
+    margin-left: 5px;
+}
+.tvImage{
+    margin-left: 200px;
+    margin-top: -150px;
+    margin-bottom: 40px;
+}
+.section3{
+    display: grid;
+    grid-auto-flow: column;
+}
+.section3Message{
+    margin-top: 50px;
+    margin-left: -690px;
+}
+.download{
+    margin-left: 0px;
+}
+.parent{
+    position: relative;
+    margin-left: 150px;
+}
+.phoneImage{
+    position: relative;
+    margin-left: 10px;
+    margin-top: 200px;
+    position: relative; 
+    width: 600px;
+}
+.section4Message{
+    margin-left: 120px;
+    margin-top: 50px;
+}
+.inline{
+    margin-left: 0px;
+}
+.section5{
+    display: grid;
+    grid-auto-flow: column;
+}        
+.section5Message{
+    margin-top: 50px;
+    margin-left: -690px;
+}
+.kids{
+    margin-left: 110px;
+}
+.childrenImage{
+    margin-top: 200px;
+    margin-left: 180px;
+}
+.unlimited6{
+    margin-top: 70px;
+    margin-left: 150px;
+    margin-bottom: 60px;
+    font-size: 41px;
+} 
+.faq{
+    color: white;
+    background-color: #303030;
+    margin-right: 100px;
+    margin-left: 30px;
+    width: 820px;
+    height: 80px;
+}
+.questions{
+    margin-left: 90px;
+    font-size: 17px;
+    text-decoration: none;
+}
+.nigeria{
+    margin-left: 90px;
+    margin-top: 30px;
+}
+}
+
+
+@media (max-width: 768px), screen and (orientation: portrait) {
+    .signOut{
+        margin-left: 600px;
+        margin-top: -10px;
+        font-weight: lighter;
+        font-size: 16px;
+        padding-top: 4px;
+        padding-bottom: 4px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .welcomeMessage{
+        color: #ffffff;
+        margin-top: -60px;
+    }
+   .section2{
+       margin-left: -200px;
+   }
+   .tvImage{
+       margin-top: -130px;
+       margin-left: 330px;
+   }
+   .enjoy{
+       margin-left: 250px;
+   }
+   .message2{
+       margin-left: 250px;
+   }
+   .parent{
+       margin-left: 60px;
+   }
+   .section3Message{
+       margin-left: -550px;
+   }
+   .childrenImage{
+       margin-left: 80px;
+   }
+ .unlimited6{
+    margin-top: 60px;
+    margin-left: 90px;
+    margin-bottom: 60px;
+    font-size: 40px;
+}      
+.faq{
+    color: white;
+    background-color: #303030;
+    margin-right: 100px;
+    margin-left: 40px;
+    width: 650px;
+    height: 80px;
+} 
+.getStarted{
+    margin-left: -50px;
+}
+}
+
+@media (max-width: 576px), screen and (orientation: portrait){
+    .signOut{
+        margin-left: 260px;
+        margin-top: 30px;
+        font-weight: lighter;
+        font-size: 16px;
+        padding-top: 4px;
+        padding-bottom: 4px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .getStarted{
+        margin-top: -90px;
+        margin-left: -150px;
+      }
+      .section2{
+          margin-left: -320px;
+      }
+      .tvImage{
+          margin-left: 350px;
+      }
+    .phoneImage{
+        position: relative;
+        margin-left: -65px;
+        margin-top: 200px;
+        position: relative; 
+    }
+    .phoneImage2{
+        position: absolute;
+        color: #ffffff;
+        font-size: 17px;
+        font-weight: bold;
+        background-color: #000000;
+        border-style: solid;
+        border-color:#303030;
+        padding: 40px 150px 15px 83px;
+        border-radius: 10px;
+        margin-top: -115px;
+        margin-left: 50px;
+    }
+    .section4Message{
+        margin-left: 100px;
+        margin-top: 50px;
+        margin-bottom: -110px;
+    }
+    .unlimited6{
+        margin-top: 60px;
+        margin-left: 80px;
+        margin-bottom: 60px;
+        font-size: 30px;
+    }  
+    .faq{
+        color: white;
+        background-color: #303030;
+        margin-right: 60px;
+        margin-left: 10px;
+        width: 550px;
+        height: 80px;
+    }
+    .kids{
+        margin-left: 200px;
+    }
+}
